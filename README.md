@@ -81,32 +81,3 @@ Response:
     }}
 }}
 ```
-## Error Handling
-The API provides meaningful error messages for the following common issues:
-
-400 Bad Request: If the input data is invalid, such as:
-
-Invalid date format
-Dates in the past
-Missing or malformed keys in the ChatGPT response
-Example:
-
-```json
-{
-  "detail": "Invalid date format. Use 'YYYY-MM-DD'."
-}
-```
-
-## Dependencies
-FastAPI: The web framework used for building the API.
-Uvicorn: ASGI server for running the FastAPI app.
-requests: Library for making HTTP requests (currently not used but included for future expansion).
-pydantic: Data validation and parsing.
-openai: OpenAI API for interaction with ChatGPT.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-
-
-
