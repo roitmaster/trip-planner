@@ -40,6 +40,12 @@ This project provides a FastAPI-based backend that helps users plan trips. The A
 
 For ChatGPT, set your OpenAI API key in the openai_helper.py file.
 For flight and weather information, set your API keys in the respective service files (flights.py, weather.py).
+
+OPENWEATHER_API_KEY = ""
+AMADEUS_CLIENT_ID = ""
+AMADEUS_CLIENT_SECRET = ""
+OPENAI_API_KEY = "your-api-key"
+
 Running the Application
 To start the API server, run:
 
