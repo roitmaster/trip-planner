@@ -28,8 +28,8 @@ This project provides a FastAPI-based backend that helps users plan trips. The A
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/trip-planning-api.git
-  ```
+     git clone https://github.com/yourusername/trip-planning-api.git
+   ```
 
 2. Install the required dependencies:
   ```bash
@@ -57,7 +57,7 @@ To start the API server, run:
   {
     "user_input": "I want to travel from New York to Paris from January 10th to January 20th."
   }
-  ```
+```
 Response:
 
 ```json
