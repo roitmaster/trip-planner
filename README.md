@@ -38,7 +38,7 @@ This project provides a FastAPI-based backend that helps users plan trips. The A
   ```
 3. Set up your API keys:
 
-For ChatGPT, set your OpenAI API key in the openai_helper.py file.
+For ChatGPT, set your OpenAI API key in the .env file.
 For flight and weather information, set your API keys in the respective service files (flights.py, weather.py).
 
 ```
