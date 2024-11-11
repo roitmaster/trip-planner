@@ -22,8 +22,3 @@ def get_chatgpt_response(prompt):
     if content.startswith('```json'):
         content = '\n'.join(response.choices[0].message.content.strip().split('\n')[1:-1])
     return json.loads(content)
-
-
-
-
-
