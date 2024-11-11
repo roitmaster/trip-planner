@@ -51,7 +51,7 @@ Running the Application
 To start the API server, run:
 
   ```bash
-    uvicorn main:app --reload
+    uvicorn complex:app --reload
   ```
  This will start the server on http://127.0.0.1:8000, and you can start making requests to the /plan_trip endpoint.
 
