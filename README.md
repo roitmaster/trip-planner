@@ -61,21 +61,25 @@ To start the API server, run:
 Response:
 
 ```json
-{
-  "trip_plan": {
-    "description": "Here is your trip plan to Paris from January 10th to January 20th.",
-    "flights": {
-      "flight_number": "AA123",
-      "departure_time": "2024-01-10T08:00:00",
-      "arrival_time": "2024-01-10T10:00:00",
-      "price": "$500"
-    },
-    "weather_forecast": {
-      "destination": "Paris",
-      "forecast": "Partly cloudy, high of 10°C, low of 5°C"
-    }
-  }
-}
+{{
+    "trip_plan": {{
+        "description": "Here is your trip plan to Tel-Aviv from November 12th to November 15th.",
+        "flights": {{
+            "Departure": [
+                "Flight AF962 departing on November 12 from CDG to TLV"
+            ],
+            "Return": [
+                "Flight AF963 departing on November 15 from TLV to CDG"
+            ]
+        }},
+        "weather_forecast": [
+            "November 12th: clear sky, 20.69 °C",
+            "November 13th: clear sky, 20.64 °C",
+            "November 14th: broken clouds, 20.36 °C",
+            "November 15th: clear sky, 18.66 °C"
+        ]
+    }}
+}}
 ```
 ## Error Handling
 The API provides meaningful error messages for the following common issues:
